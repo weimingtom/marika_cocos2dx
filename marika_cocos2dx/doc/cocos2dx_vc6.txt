@@ -1,0 +1,16 @@
+-define
+,WIN32,_WINDOWS,GLEW_STATIC,COCOS2DXWIN32_EXPORTS,GL_GLEXT_PROTOTYPES,COCOS2D_DEBUG=1,PTW32_STATIC_LIB
+-include
+.,include,kazmath/include,platform/win32,platform/third_party/win32/iconv,platform/third_party/win32/zlib,platform/third_party/win32/libpng,platform/third_party/win32/libjpeg,platform/third_party/win32/libtiff,platform/third_party/win32/libwebp,platform/third_party/win32/pthread,platform/third_party/win32/OGLES,platform/win32/compat
+-lib
+platform/win32/third_party/libraries
+-mt
+/GR
+http://blog.sina.com.cn/s/blog_7c2c21230100sv5d.html
+
+
+../../../cocos2dx,../../../cocos2dx/include,../../../cocos2dx/platform/win32
+
+../../../cocos2dx/platform/third_party/win32/iconv,../../../cocos2dx/platform/third_party/win32/zlib,../../../cocos2dx/platform/third_party/win32/libpng,../../../cocos2dx/platform/third_party/win32/libjpeg,../../../cocos2dx/platform/third_party/win32/libtiff,../../../cocos2dx/platform/third_party/win32/libwebp,../../../cocos2dx/platform/third_party/win32/pthread,../../../cocos2dx/platform/third_party/win32/OGLES
+
+../../../cocos2dx/kazmath/include
