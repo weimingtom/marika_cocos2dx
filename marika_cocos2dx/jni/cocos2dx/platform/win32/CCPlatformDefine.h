@@ -7,7 +7,9 @@
 
 #if defined(_MSC_VER) && MSC_VER <= 1200
 	#define CC_DLL
+#ifndef __FUNCTION__
 	#define __FUNCTION__ "???"
+#endif
 #elif defined(__MINGW32__)
 	#define CC_DLL
 #else

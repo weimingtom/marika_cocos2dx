@@ -41,7 +41,7 @@ RSC=rc.exe
 # PROP Intermediate_Dir "Release"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /YX /FD /c
-# ADD CPP /nologo /MT /W3 /GR /GX /O2 /I "." /I "include" /I "kazmath/include" /I "platform/win32" /I "../zlib" /I "../png" /I "../jpeg" /I "../pthread" /I "platform/win32/compat" /I "../glew/include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "GLEW_STATIC" /D "COCOS2DXWIN32_EXPORTS" /D "GL_GLEXT_PROTOTYPES" /D COCOS2D_DEBUG=1 /D "PTW32_STATIC_LIB" /D "_WINDOWS" /YX /FD /c
+# ADD CPP /nologo /MT /W3 /GR /GX /O2 /I "." /I "include" /I "kazmath/include" /I "platform/win32" /I "../zlib" /I "../png" /I "../jpeg" /I "../pthread" /I "platform/win32/compat" /I "../glew/include" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_LIB" /D "GLEW_STATIC" /D "COCOS2DXWIN32_EXPORTS" /D "GL_GLEXT_PROTOTYPES" /D COCOS2D_DEBUG=1 /D "PTW32_STATIC_LIB" /D "_WINDOWS" /YX /FD /c
 # ADD BASE RSC /l 0x804 /d "NDEBUG"
 # ADD RSC /l 0x804 /d "NDEBUG"
 BSC32=bscmake.exe
@@ -64,7 +64,7 @@ LIB32=link.exe -lib
 # PROP Intermediate_Dir "Debug"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
-# ADD CPP /nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "." /I "include" /I "kazmath/include" /I "platform/win32" /I "../zlib" /I "../png" /I "../jpeg" /I "../pthread" /I "platform/win32/compat" /I "../glew/include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "GLEW_STATIC" /D "COCOS2DXWIN32_EXPORTS" /D "GL_GLEXT_PROTOTYPES" /D COCOS2D_DEBUG=1 /D "PTW32_STATIC_LIB" /D "_WINDOWS" /FR /YX /FD /GZ /c
+# ADD CPP /nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "." /I "include" /I "kazmath/include" /I "platform/win32" /I "../zlib" /I "../png" /I "../jpeg" /I "../pthread" /I "platform/win32/compat" /I "../glew/include" /D "WIN32" /D "_DEBUG" /D "_UNICODE" /D "UNICODE" /D "_LIB" /D "GLEW_STATIC" /D "COCOS2DXWIN32_EXPORTS" /D "GL_GLEXT_PROTOTYPES" /D COCOS2D_DEBUG=1 /D "PTW32_STATIC_LIB" /D "_WINDOWS" /FR /YX /FD /GZ /c
 # ADD BASE RSC /l 0x804 /d "_DEBUG"
 # ADD RSC /l 0x804 /d "_DEBUG"
 BSC32=bscmake.exe
